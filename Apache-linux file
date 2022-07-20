@@ -3,4 +3,4 @@ yum update -y
 yum install -y httpd
 systemctl start httpd.service
 systemctl enable httpd.service
-echo "Hello, I am $(hostname -f) Apache HTTP Server ALB Demo" > /var/www/html/index.html
+echo "Hello, I am $(hostname -f) Apache HTTP Server Demo" > /var/www/html/index.html
